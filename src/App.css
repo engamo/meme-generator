@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ccc;
+}
+.container {
+  width: 550px;
+  height: 550px;
+  /* margin-top: 40px;
+  margin-bottom: 40px; */
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+.left-nav {
+  display: flex;
+  gap: 10px;
+}
+.right-nav {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+.left-nav-text {
+  color: #FFF;
+  font-size: 20.748px;
+  font-weight: 700;
+  letter-spacing: -2.075px;
+  font-family: 'Karla', sans-serif;
+}
+.main-container {
+  padding: 36px;
+  padding-bottom: 55px;
+  background: #fff;
+}
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+input {
+  padding: 10px 10px;
+  width: 230px;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+}
+input::placeholder {
+  color: #0D0D0D;
+  font-family: 'Karla', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+button {
+  border-radius: 5px;
+  background: linear-gradient(90deg, #711F8D 1.14%, #A818DA 100%);
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 36px;
+}
+.memeimg {
+  width: 100%;
+  border-radius: 2px;
+}
