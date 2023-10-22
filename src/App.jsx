@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar'
-import MainContent from './components/MainContent'
+import Meme from './components/Meme'
 import './App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='container'>
       <Navbar />
-      <MainContent />
+      <Meme />
     </div>
   )
 }
