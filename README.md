@@ -1,1 +1,1 @@
-#Meme Generator built with React
+#Meme Generator built with React, learned about useState, fetchAPI, useEffect, useEffect cleanup function, React Form, async and await, conditional rendering, event listeners, etc
